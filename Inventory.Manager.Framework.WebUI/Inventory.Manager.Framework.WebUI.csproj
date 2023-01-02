@@ -20,9 +20,11 @@
     <EmbeddedResource Include="index.html" />
   </ItemGroup>
 	<ItemGroup>
-	  <PackageReference Include="Inventory.Manager.Framework" Version="3.3.3" />
 	  <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
 	  <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.2.0" />
 	  <PackageReference Include="Microsoft.Extensions.FileProviders.Embedded" Version="7.0.1" />
+	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\Inventory.Manager.Framework\Inventory.Manager.Framework.csproj" />
 	</ItemGroup>
 </Project>

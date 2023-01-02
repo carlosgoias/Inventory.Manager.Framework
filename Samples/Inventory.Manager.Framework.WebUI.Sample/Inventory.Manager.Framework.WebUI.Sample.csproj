@@ -7,8 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Inventory.Manager.Framework" Version="3.3.3" />
-    <PackageReference Include="Inventory.Manager.Framework.WebUI" Version="2.0.2" />
+    <ProjectReference Include="..\..\Inventory.Manager.Framework.WebUI\Inventory.Manager.Framework.WebUI.csproj" />
+    <ProjectReference Include="..\..\Inventory.Manager.Framework\Inventory.Manager.Framework.csproj" />
   </ItemGroup>
 
 </Project>

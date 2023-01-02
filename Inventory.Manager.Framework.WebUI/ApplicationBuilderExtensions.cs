@@ -1,8 +1,8 @@
-﻿using Inventory.Manager.Framework.WebUI.Handlers;
-using Microsoft.AspNetCore.Builder;
-
-namespace Inventory.Manager.Framework.WebUI
+﻿namespace Inventory.Manager.Framework.WebUI
 {
+    using Inventory.Manager.Framework.WebUI.Handlers;
+    using Microsoft.AspNetCore.Builder;
+
     public static class ApplicationBuilderExtensions
     {
         public static IApplicationBuilder UseInventoryManagerWebUI(this IApplicationBuilder app, IManager manager)

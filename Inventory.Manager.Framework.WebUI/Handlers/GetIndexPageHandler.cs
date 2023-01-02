@@ -1,9 +1,9 @@
-﻿using System.Text;
-using System.Text.RegularExpressions;
-using Microsoft.AspNetCore.Http;
-
-namespace Inventory.Manager.Framework.WebUI.Handlers
+﻿namespace Inventory.Manager.Framework.WebUI.Handlers
 {
+    using System.Text;
+    using System.Text.RegularExpressions;
+    using Microsoft.AspNetCore.Http;
+
     internal sealed class GetIndexPageHandler : WebUIRequestHandlerBase
     {
         private static readonly string[] resourcePath = new[] { "/{0}", "/{0}/", "/{0}/index.html" };

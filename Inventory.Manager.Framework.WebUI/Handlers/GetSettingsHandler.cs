@@ -1,8 +1,8 @@
-﻿using System.Net;
-using Microsoft.AspNetCore.Http;
-
-namespace Inventory.Manager.Framework.WebUI.Handlers
+﻿namespace Inventory.Manager.Framework.WebUI.Handlers
 {
+    using System.Net;
+    using Microsoft.AspNetCore.Http;
+
     internal sealed class GetSettingsHandler : WebUIRequestHandlerBase
     {
         private static readonly string[] resourcePath = new[] { "/{0}/api/v1/settings" };
